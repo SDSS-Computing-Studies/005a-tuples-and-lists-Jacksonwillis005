@@ -30,4 +30,4 @@ animals.sort()
 a=input("Enter a Number to get an Animal: ")
 a=int(a)
 
-print ("The animal at that index is " + animals[0])
+print ("The animal at that index is " + animals[a])
