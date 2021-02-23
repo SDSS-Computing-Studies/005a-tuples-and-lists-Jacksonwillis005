@@ -23,3 +23,15 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+
+myList=['apple', 'worm', 'dollar', 'shingle', 'virus']
+myList.sort()
+str="apple"
+str="worm"
+str="dollar"
+str="shingle"
+str="virus"
+
+queston=input("Enter a word:")
+str=myList(myList)
+print(myList.index(queston))
