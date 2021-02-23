@@ -24,12 +24,12 @@ Enter a word: virus
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
 
-a = str(input("Enter a word:"))
-b = str(input("Enter a word:"))
-c = str(input("Enter a word:"))
-d = str(input("Enter a word:"))
-e = str(input("Enter a word:"))
+computer = str(input("Enter a word:"))
+bug = str(input("Enter a word:"))
+virus = str(input("Enter a word:"))
+memory = str(input("Enter a word:"))
+storage = str(input("Enter a word:"))
 
-word=[a, b, c, d, e]
+word=[computer, bug, virus, memory, storage]
 
 print(word)
