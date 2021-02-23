@@ -24,9 +24,12 @@ Enter a word: virus
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
 
-myList=['apple', 'worm', 'dollar', 'shingle', 'virus']
-myList.sort()
-myList=str(myList)
-queston=input("Enter a word:")
+a = str(input("Enter a word:"))
+b = str(input("Enter a word:"))
+c = str(input("Enter a word:"))
+d = str(input("Enter a word:"))
+e = str(input("Enter a word:"))
 
-print(myList[4])
+word=[a, b, c, d, e]
+
+print(word)
