@@ -26,12 +26,7 @@ Enter a word: virus
 
 myList=['apple', 'worm', 'dollar', 'shingle', 'virus']
 myList.sort()
-str="apple"
-str="worm"
-str="dollar"
-str="shingle"
-str="virus"
-
+myList=str(myList)
 queston=input("Enter a word:")
-str=myList(myList)
-print(myList.index(queston))
+
+print(myList[4])
