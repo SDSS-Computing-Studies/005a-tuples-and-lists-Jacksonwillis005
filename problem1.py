@@ -29,5 +29,5 @@ people.remove(a)
 print(people)
 
 q=input("Enter the Replacement: ").strip()
-people.append(q)
+people.insert(q)
 print(people)
