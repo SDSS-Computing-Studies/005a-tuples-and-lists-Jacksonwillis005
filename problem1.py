@@ -22,10 +22,11 @@ Enter the replacement:Dan
 
 people = ["Alain", "Brian", "Chris", "Justin", "Angela", "Rick"]
 print(people)
-a=str=input("Choose a person from the list to replace: ")
+a=input("Choose a person from the list to replace: ").strip()
 people.remove(a)
 print(people)
-q=str=input("Enter the Replacement: ")
+
+q=input("Enter the Replacement: ").strip()
 people.append(q)
 print(people)
-print("\n\n")
+print("Thanks!!!")
