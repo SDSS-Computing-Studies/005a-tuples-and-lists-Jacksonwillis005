@@ -29,5 +29,5 @@ people.remove(a)
 print(people)
 
 q=input("Enter the Replacement: ").strip()
-people.insert(q)
+people.insert(dIndex, q)
 print(people)
