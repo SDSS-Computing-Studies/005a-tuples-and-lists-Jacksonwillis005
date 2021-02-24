@@ -32,7 +32,6 @@ fruit.index(a)
 dIndex = fruit.index(a)
 print("Yes! its in there.")
 print(fruit)
-
 b=input("Enter a word from the list: ").strip()
 print("word not in the list")
 fruit.append(b)
