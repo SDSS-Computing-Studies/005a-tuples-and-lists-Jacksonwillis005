@@ -23,6 +23,8 @@ Enter the replacement:Dan
 people = ["Alain", "Brian", "Chris", "Justin", "Angela", "Rick"]
 print(people)
 a=input("Choose a person from the list to replace: ").strip()
+people.index(a)
+dIndex = people.index(a)
 people.remove(a)
 print(people)
 
