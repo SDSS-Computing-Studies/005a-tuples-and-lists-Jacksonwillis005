@@ -24,10 +24,8 @@ Enter an integer:-1
 The largest number you entered is 92
 """
 
-mathint=[-1,2,3,8,13,24,48,92]
+mathint=[2,3,8,13,24,48,92]
 
 a=input("Enter an integer ").strip()
-mathint.sort(a)
-mathint.index(a)
-mathint.count(a)
-print ("The largest number you entered is " + mathint[a])
+a=int(a)
+print ("The largest number you entered is " + str(mathint[-1]))
