@@ -28,4 +28,4 @@ mathint=[2,3,8,13,24,48,92]
 
 a=input("Enter an integer ").strip()
 a=int(a)
-print ("The largest number you entered is " + str(mathint[-1]))
+print ("The largest number you entered is " + str(mathint[a]))
