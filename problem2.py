@@ -24,7 +24,7 @@ word not in list
 
 """
 
-fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
+fruit = ["apple","cherry", "tomato" , "kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
 
 print(fruit)
 a=input("Choose a word from the list: ")
@@ -34,7 +34,7 @@ print("Yes! its in there.")
 fruit.remove(a)
 fruit.remove(a)
 print(fruit)
-b=input("Enter a word from the list: ")
+b=input("Enter a word from the list: ").strip()
 print("word not in the list")
 fruit.append(b)
 print(fruit)
