@@ -24,7 +24,7 @@ word not in list
 
 """
 
-fruit = ["apple","cherry", "tomato" , "kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
+fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
 
 print(fruit)
 e=input("Choose a word from the list: ")
