@@ -27,7 +27,7 @@ word not in list
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
 
 print(fruit)
-e=input("Choose a word from the list: ").strip()
+e=input("Choose a word from the list: ")
 fruit.index(e)
 dIndex = fruit.index(e)
 print("Yes! its in there.")
@@ -35,7 +35,7 @@ for a in fruit:
     if e in fruit:
         fruit.remove(e)
 print(fruit)
-b=input("Enter a word from the list: ").strip()
+b=input("Enter a word from the list: ")
 print("word not in the list")
 fruit.insert(dIndex, b)
 print(fruit)
